@@ -1,0 +1,31 @@
+Model     : meta-llama/Meta-Llama-3-8B-Instruct
+Retriever : BAAI/bge-m3
+Dataset   : XSquAD validation
+Samples   : 200 per language
+Timestamp : 20260322_180849
+
+ lang_name  mono_f1  cross_f1  full_f1  mono_rhr  cross_rhr  full_rhr        best_scope     lbs
+   English   0.7924    0.7924   0.8012     0.925      0.925     0.880       monolingual  0.0088
+    German   0.6976    0.7410   0.6923     0.925      0.925     0.850     cross-lingual  0.0434
+   Spanish   0.7364    0.7662   0.7089     0.925      0.905     0.850     cross-lingual  0.0298
+     Greek   0.5321    0.5523   0.5589     0.925      0.925     0.910 full-multilingual  0.0268
+   Russian   0.6916    0.6515   0.6333     0.930      0.925     0.820       monolingual -0.0401
+   Turkish   0.5667    0.6347   0.6399     0.915      0.915     0.850     cross-lingual  0.0732
+    Arabic   0.6192    0.6311   0.6150     0.925      0.910     0.855     cross-lingual  0.0119
+Vietnamese   0.7087    0.7367   0.7107     0.920      0.910     0.900     cross-lingual  0.0280
+      Thai   0.5985    0.5935   0.6198     0.900      0.890     0.860 full-multilingual  0.0213
+   Chinese   0.6929    0.6887   0.7110     0.740      0.735     0.730 full-multilingual  0.0181
+     Hindi   0.6138    0.6393   0.6359     0.865      0.855     0.850     cross-lingual  0.0255
+
+Routing Table:
+  English      → monolingual  (LBS=+0.0088)
+  German       → cross-lingual  (LBS=+0.0434)
+  Spanish      → cross-lingual  (LBS=+0.0298)
+  Greek        → full-multilingual  (LBS=+0.0268)
+  Russian      → monolingual  (LBS=-0.0401)
+  Turkish      → cross-lingual  (LBS=+0.0732)
+  Arabic       → cross-lingual  (LBS=+0.0119)
+  Vietnamese   → cross-lingual  (LBS=+0.0280)
+  Thai         → full-multilingual  (LBS=+0.0213)
+  Chinese      → full-multilingual  (LBS=+0.0181)
+  Hindi        → cross-lingual  (LBS=+0.0255)

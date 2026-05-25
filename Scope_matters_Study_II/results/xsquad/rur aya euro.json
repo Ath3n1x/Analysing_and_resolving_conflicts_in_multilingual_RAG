@@ -1,0 +1,59 @@
+{
+  "timestamp": "20260330_154540",
+  "samples_per_lang": 200,
+  "retrievers": [
+    "bge"
+  ],
+  "generators": [
+    "aya",
+    "euro"
+  ],
+  "scopes": [
+    "monolingual",
+    "cross-lingual",
+    "full-multilingual"
+  ],
+  "metric": "RUR = |pred_tokens ∩ ctx_tokens| / |pred_tokens|",
+  "char_level_langs": [
+    "th",
+    "zh"
+  ],
+  "summary": [
+    {
+      "retriever": "bge",
+      "generator": "aya",
+      "scope": "cross-lingual",
+      "rur_mean": 0.8323
+    },
+    {
+      "retriever": "bge",
+      "generator": "aya",
+      "scope": "full-multilingual",
+      "rur_mean": 0.8198
+    },
+    {
+      "retriever": "bge",
+      "generator": "aya",
+      "scope": "monolingual",
+      "rur_mean": 0.796
+    },
+    {
+      "retriever": "bge",
+      "generator": "euro",
+      "scope": "cross-lingual",
+      "rur_mean": 0.9074
+    },
+    {
+      "retriever": "bge",
+      "generator": "euro",
+      "scope": "full-multilingual",
+      "rur_mean": 0.8577
+    },
+    {
+      "retriever": "bge",
+      "generator": "euro",
+      "scope": "monolingual",
+      "rur_mean": 0.927
+    }
+  ]
+}

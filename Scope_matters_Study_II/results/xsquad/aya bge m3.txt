@@ -1,0 +1,31 @@
+Model     : CohereLabs/aya-23-8B
+Retriever : BAAI/bge-m3
+Dataset   : XSquAD validation
+Samples   : 200 per language
+Timestamp : 20260322_143602
+
+ lang_name  mono_f1  cross_f1  full_f1  mono_rhr  cross_rhr  full_rhr        best_scope     lbs
+   English   0.8301    0.8301   0.8090     0.925      0.925     0.880       monolingual  0.0000
+    German   0.7252    0.7334   0.7120     0.925      0.925     0.850       monolingual  0.0082
+   Spanish   0.7598    0.7444   0.7185     0.925      0.905     0.850       monolingual -0.0154
+     Greek   0.6907    0.7010   0.6167     0.925      0.925     0.910     cross-lingual  0.0103
+   Russian   0.6393    0.6156   0.5514     0.930      0.925     0.825       monolingual -0.0237
+   Turkish   0.6059    0.6958   0.6476     0.915      0.915     0.850     cross-lingual  0.0899
+    Arabic   0.7131    0.6776   0.6274     0.925      0.910     0.855       monolingual -0.0355
+Vietnamese   0.7114    0.7152   0.6869     0.920      0.910     0.895       monolingual  0.0038
+      Thai   0.4978    0.4902   0.4812     0.900      0.890     0.835       monolingual -0.0076
+   Chinese   0.7185    0.7093   0.6634     0.740      0.735     0.730       monolingual -0.0092
+     Hindi   0.6615    0.6955   0.7064     0.865      0.855     0.835 full-multilingual  0.0449
+
+Routing Table:
+  English      → monolingual  (LBS=+0.0000)
+  German       → monolingual  (LBS=+0.0082)
+  Spanish      → monolingual  (LBS=-0.0154)
+  Greek        → cross-lingual  (LBS=+0.0103)
+  Russian      → monolingual  (LBS=-0.0237)
+  Turkish      → cross-lingual  (LBS=+0.0899)
+  Arabic       → monolingual  (LBS=-0.0355)
+  Vietnamese   → monolingual  (LBS=+0.0038)
+  Thai         → monolingual  (LBS=-0.0076)
+  Chinese      → monolingual  (LBS=-0.0092)
+  Hindi        → full-multilingual  (LBS=+0.0449)
