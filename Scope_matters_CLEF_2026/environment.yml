@@ -1,0 +1,13 @@
+name: mlrag
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch>=2.2.0
+  - pytorch-cuda=12.1
+  - pip
+  - pip:
+    - -r requirements.txt
