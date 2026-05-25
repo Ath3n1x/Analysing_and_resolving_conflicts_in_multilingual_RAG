@@ -1,0 +1,37 @@
+{
+  "vi": {
+    "mono": { "em": 0.0, "f1": 10.74, "rhr": 83.5, "lmr": 98.89, "hall": 38.0, "bertscore": 65.43 },
+    "cross": { "em": 0.0, "f1": 10.74, "rhr": 83.5, "lmr": 98.89, "hall": 38.0, "bertscore": 65.43 },
+    "full": { "em": 0.0, "f1": 11.64, "rhr": 83.0, "lmr": 97.95, "hall": 37.5, "bertscore": 65.63 }
+  },
+  "zh": {
+    "mono": { "em": 13.0, "f1": 41.48, "rhr": 90.0, "lmr": 76.89, "hall": 18.0, "bertscore": 64.57 },
+    "cross": { "em": 13.0, "f1": 41.48, "rhr": 90.0, "lmr": 76.89, "hall": 18.0, "bertscore": 64.57 },
+    "full": { "em": 10.5, "f1": 36.91, "rhr": 88.0, "lmr": 70.36, "hall": 25.5, "bertscore": 63.03 }
+  },
+  "en": {
+    "mono": { "em": 0.5, "f1": 28.2, "rhr": 93.0, "lmr": 99.5, "hall": 38.5, "bertscore": 86.1 },
+    "cross": { "em": 0.5, "f1": 28.2, "rhr": 93.0, "lmr": 99.5, "hall": 38.5, "bertscore": 86.1 },
+    "full": { "em": 1.0, "f1": 25.8, "rhr": 87.5, "lmr": 98.1, "hall": 46.5, "bertscore": 85.4 }
+  },
+  "de": {
+    "mono": { "em": 1.0, "f1": 20.6, "rhr": 87.0, "lmr": 99.8, "hall": 44.5, "bertscore": 67.3 },
+    "cross": { "em": 1.0, "f1": 20.6, "rhr": 86.5, "lmr": 99.9, "hall": 35.5, "bertscore": 67.2 },
+    "full": { "em": 1.0, "f1": 20.1, "rhr": 76.0, "lmr": 99.4, "hall": 50.5, "bertscore": 67.0 }
+  },
+  "es": {
+    "mono": { "em": 1.5, "f1": 23.7, "rhr": 90.5, "lmr": 100.0, "hall": 44.0, "bertscore": 68.6 },
+    "cross": { "em": 2.0, "f1": 23.7, "rhr": 88.0, "lmr": 99.9, "hall": 47.5, "bertscore": 68.7 },
+    "full": { "em": 1.5, "f1": 21.7, "rhr": 73.5, "lmr": 99.3, "hall": 54.0, "bertscore": 68.2 }
+  },
+  "ar": {
+    "mono": { "em": 1.5, "f1": 19.4, "rhr": 86.5, "lmr": 82.5, "hall": 41.5, "bertscore": 69.9 },
+    "cross": { "em": 1.0, "f1": 18.6, "rhr": 87.5, "lmr": 80.8, "hall": 46.0, "bertscore": 69.7 },
+    "full": { "em": 1.0, "f1": 14.1, "rhr": 77.0, "lmr": 80.6, "hall": 58.0, "bertscore": 68.5 }
+  },
+  "hi": {
+    "mono": { "em": 0.0, "f1": 4.9, "rhr": 89.0, "lmr": 99.8, "hall": 18.0, "bertscore": 63.2 },
+    "cross": { "em": 0.0, "f1": 4.0, "rhr": 90.0, "lmr": 100.0, "hall": 25.0, "bertscore": 63.5 },
+    "full": { "em": 0.5, "f1": 8.5, "rhr": 75.0, "lmr": 96.0, "hall": 55.5, "bertscore": 65.3 }
+  }
+}
